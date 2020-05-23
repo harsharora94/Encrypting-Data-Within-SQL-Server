@@ -25,6 +25,32 @@ Under this feature, following are the data files which can be securely encrypted
 2. Files
 3. SQL Backups
 
+#### How to Enable Transparent Data Encryption for a database?
+
+Following steps to be performed in order to enable TDE for a database:
+
+1. Creation of Master Key.
+2. Creation of Certificate.
+3. Backup Certificate with Private Key.
+4. Create Database Encryption Key.
+5. Enable Encryption at database level.
+
+#### How to Remove Transparent Data Encryption Completely?
+
+Following steps to be performed in order to remove TDE completely:
+
+1. Disable Encryption at database level.
+2. Drop Database Encryption Key.
+3. Drop Certificate from master database.
+4. Drop Master Key from master database.
+
+#### How to Verify the status of database encryption on each database?
+
+Following steps to be performed in order to verify the status of database encryption on each database using below mentioned system tables:
+
+1. sys.dm_database_encryption_keys
+2. sys.certificates
+
 ### Encryption in SQL Server - Cell Level
 
 It was introduced from SQL Server 2005 version onwards. Microsoft provides it with only Enterprise Edition of SQL Server. There is an application change required while encrypting SQL Server at cell level. 

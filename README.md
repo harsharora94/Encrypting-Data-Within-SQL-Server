@@ -11,6 +11,14 @@ It is a type of information sanitization whose intent is privacy protection. It 
 
 ### Encryption in SQL Server - TDE
 
+Transparent Data Encryption (TDE) is concept of encrypting data and log files of a database. This encryption is transparent to user, as data gets stored in encrypted format on disks and when user retrieves the data it gets decrypted and shown. 
+
+For more information related to TDE can be found in below links: 
+
+[Transparent Data Encryption (TDE)- Link 1](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/bb934049(v=sql.105)?redirectedfrom=MSDN)
+
+[Transparent Data Encryption (TDE)- Link 2](https://www.red-gate.com/simple-talk/sql/database-administration/transparent-data-encryption/)
+
 It comes under Data at Rest security feature at SQL Server level. Microsoft provides it with only Enterprise Edition of SQL Server. There is no application change required while encrypting SQL Server data files using TDE. 
 Under this feature, following are the data files which can be securely encrypted:
 1. SQL Server Log

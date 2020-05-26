@@ -127,3 +127,9 @@ For in-place encryption to be possible, the column encryption key (or keys), inv
 3. Decryption: the current column encryption key of the column must be enclave-enabled
 
 [Supported Reference Link For Always Encrypted Enclaves](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-enclaves?view=sqlallproducts-allversions)
+
+## Show your support
+Give a ⭐️ if this project helped you!
+
+## Contact
+Please feel free to reach out to me **@harsharora.engineer@gmail.com** for any further queries or more info.
